@@ -1,3 +1,6 @@
+// CRIAÇÃO DE UM JOGO DE ADIVINHAÇÃO DE NÚMEROS 
+
+
 //inclui biblioteca
 #include <stdio.h>
 #include <stdlib.h>

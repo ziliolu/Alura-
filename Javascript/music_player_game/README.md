@@ -1,4 +1,4 @@
-# Projeto "Music player" desenvolvido no curso "JavaScript para Web: Crie páginas dinâmicas"
+## Projeto "Music player" desenvolvido no curso "JavaScript para Web: Crie páginas dinâmicas"
 
 Objetivos do curso:
 

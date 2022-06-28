@@ -19,12 +19,6 @@ public class FlowWithTreatment {
 
     private static void method2() {
         System.out.println("Start of method 2");
-        for (int i = 1; i <= 5; i++) {
-            System.out.println(i);
-            Account account = null;
-            account.deposit();
-            int a = i / 0;
-        }
         System.out.println("End of method 2");
     }
 }

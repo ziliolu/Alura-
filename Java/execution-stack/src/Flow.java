@@ -3,7 +3,7 @@ public class Flow {
         System.out.println("Start of main");
         try {
              method1();
-        } catch (ArithmeticException | NullPointerException | MyException e) {
+        } catch (Exception e) {
             String msg = e.getMessage();
             System.out.println("Exception ---> " + msg);
             e.printStackTrace();
@@ -11,13 +11,13 @@ public class Flow {
         System.out.println("FIM");
     }
 
-    private static void method1(){
+    private static void method1() throws MyException {
         System.out.println("Start of method 1");
         method2();
         System.out.println("End of method 1");
     }
 
-    private static void method2(){
+    private static void method2() throws MyException {
         System.out.println("Start of method 2");
         throw new MyException("Something is very wrong!");
 

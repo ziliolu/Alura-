@@ -20,23 +20,21 @@ public abstract class Account {
     }
 
     //methods
-    public boolean drawCash(double value){
-        if (this.balance >= value) {
-            this.balance -= value;
-            return true;
-        } else {
-            return false;
+    public void drawCash(double value) throws InsufficientFundsException{
+
+
+        if (this.balance < value) {
+            throw new InsufficientFundsException("Ops...Insufficient funds! Your balance: " + this.getBalance());
         }
+
+        this.balance -= value;
+        System.out.println("Succeed! Your balance now is: " + this.getBalance());
     }
     public abstract void depositCash(double value);
 
-    public boolean transferCash(double value, Account destinyAccount){
-        if (this.balance >= value){
-            this.balance -= value;
-            destinyAccount.balance += value;
-            return true;
-        }
-        return false;
+    public void transferCash(double value, Account destinyAccount) throws InsufficientFundsException{
+        this.drawCash(value); //if drawException throws an exception it will stop working and reading the method)
+        destinyAccount.depositCash(value);
     }
 
     //getters and setters

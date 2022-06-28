@@ -1,6 +1,6 @@
 public class AccountsTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InsufficientFundsException{
 
         //classes have the same method as it's "mother"
         CheckingAccount cc = new CheckingAccount(100, 1);

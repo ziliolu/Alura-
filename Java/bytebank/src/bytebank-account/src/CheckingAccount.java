@@ -14,4 +14,9 @@ public class CheckingAccount extends Account implements Taxable {
     public double getTaxValue() {
         return super.balance * 0.01;
     }
+
+    @Override
+    public void drawCash(double value) throws InsufficientFundsException {
+        super.drawCash(value);
+    }
 }

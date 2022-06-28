@@ -9,11 +9,11 @@ public abstract class Account {
     //constructor
     public Account(int agency, int number){
         Account.total++; //you can use total++ instead
-        if (agency <= 0){
-            System.out.println("You need a valid number for the agency. Please insert a positive number.");
+        if (agency < 1){
+            throw new IllegalArgumentException("Invalid agency");
         }
-        if (number <= 0){
-            System.out.println("You need a valid number for the account's number. Please insert a positive number.");
+        if (number < 1){
+            throw new IllegalArgumentException("Invalid account number");
         }
         this.agency = agency;
         this.number = number;

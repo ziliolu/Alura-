@@ -14,8 +14,6 @@ public class SystemTest {
         s.validateManager(a);
         s.validateManager(c);
 
-
-
     }
 
 }

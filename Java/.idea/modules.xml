@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bytebank/src/Biblioteca/Biblioteca.iml" filepath="$PROJECT_DIR$/bytebank/src/Biblioteca/Biblioteca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytebank/src/bytebank-account/bytebank-account.iml" filepath="$PROJECT_DIR$/bytebank/src/bytebank-account/bytebank-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytebank/src/bytebank-company/bytebank-company.iml" filepath="$PROJECT_DIR$/bytebank/src/bytebank-company/bytebank-company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/execution-stack/execution-stack.iml" filepath="$PROJECT_DIR$/execution-stack/execution-stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.lang/java.lang.iml" filepath="$PROJECT_DIR$/java.lang/java.lang.iml" />
+    </modules>
+  </component>
+</project>
